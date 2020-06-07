@@ -79,7 +79,7 @@ private val randomValues =
 
 Führen Sie nun das Projekt aus: Ihre RecyclerView sollte nun Einträge in einer Listenansicht anzeigen.
 
-#### 2.1 Interaktion und Optimierung
+#### 2.2 Interaktion und Optimierung
 
 Nun sollen Sie bei einem Klick auf eine Zeile der RecyclerView auch deren Position anzeigen lassen. Geben Sie dazu Ihrer `CheckBox` in der init-Methode des `CustomViewHolder` einen `OnClickListener` und geben Sie die Position mittels eines Toasts aus - zum Beispiel:
 
